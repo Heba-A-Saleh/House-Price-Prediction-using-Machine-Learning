@@ -12,8 +12,7 @@ The project involves exploratory data analysis, data processing, and the applica
 The repository is organized into the following folders:
 
   * `data`: contains the dataset files, `train.csv` and `test.csv`.
-  * `notebooks`: contains Jupyter notebooks that document the data exploration, data processing, and machine learning steps used in the project.
-  * `src`: contains Python source code files used in the project.
+  * `Prediction.ipynb`: contains Jupyter notebooks that document the data exploration, data processing, and machine learning steps used in the project.
 
 ## Installation
 
@@ -38,7 +37,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-The project can be used to predict the sale price of residential homes in Ames, Iowa, by providing input data in CSV format. The input data should have the same features as the `train.csv` and `test.csv` files provided in the `data` folder. To make predictions, simply run the `predict.py` script in the `src` folder, passing the input CSV file as an argument. The script will output a CSV file containing the predicted sale prices.
+The project can be used to predict the sale price of residential homes in Ames, Iowa, by providing input data in CSV format. The input data should have the same features as the `train.csv` and `test.csv` files provided in the `data` folder. To make predictions, simply run the `Prediction.ipynb` script in juypter notebook processing the input CSV file as an argument. The script will calculate the confusion matrix, accuracy, precision, recall and f1 scores of the model
 
 ## Credits
 
